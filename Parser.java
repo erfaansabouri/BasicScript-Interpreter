@@ -234,7 +234,7 @@ public class Parser extends ParserEngine{
                 return x;
             }
 
-            // Grammar:
+            // Grammar :
             // expression = term | expression `+` term | expression `-` term
             // term = factor | term `*` factor | term `/` factor
             // factor = `+` factor | `-` factor | `(` expression `)`
